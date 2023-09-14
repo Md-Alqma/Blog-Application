@@ -4,8 +4,6 @@ document.querySelector("#navbar").innerHTML = navbar();
 const homeLink = document.querySelector(".home");
 const createBlog = document.querySelector(".create__blog");
 
-import { getData } from "../components/getData.js";
-
 homeLink.addEventListener("click", () => {
   location.href = "../index.html";
 });
@@ -39,4 +37,5 @@ document.querySelector("#publish").addEventListener("click", async () => {
       "Content-Type": "application/json",
     },
   });
+  location.href = "../index.html";
 });

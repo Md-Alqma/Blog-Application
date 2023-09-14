@@ -1,13 +1,13 @@
 form {
-    width: 600px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    justify-content: space-around;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
 }
 
-input, input[type="submit"] {
-    /* padding: 5px; */
-    height: 30px;
+input,
+input[type="submit"] {
+  height: 30px;
 }
