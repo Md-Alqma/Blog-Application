@@ -18,18 +18,6 @@ document.querySelector("#publish").addEventListener("click", async () => {
     author: document.querySelector("#author").value,
   };
 
-  // console.log(blogData);
-
-  // let res = await getData(`http://localhost:3000/blogs`, {
-  //     method: 'POST',
-  //     body: JSON.stringify(blogData),
-  //     headers: {
-  //         "Content-Type": "application/json",
-  //     }
-  // })
-
-  // }
-
   let res = await fetch(`http://localhost:3000/blogs`, {
     method: "POST",
     body: JSON.stringify(blogData),
