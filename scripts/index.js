@@ -4,9 +4,14 @@ import { getData } from "../components/getData.js";
 
 document.querySelector("#navbar").innerHTML = navbar();
 const homeLink = document.querySelector(".home");
+const createBlog = document.querySelector(".create__blog");
 
 homeLink.addEventListener("click", () => {
   location.href = "./index.html";
+});
+
+createBlog.addEventListener("click", () => {
+  location.href = "./pages/create.html";
 });
 
 const initialFunc = async () => {

@@ -1,8 +1,16 @@
 import navbar from "../components/navbar.js";
 
 document.querySelector("#navbar").innerHTML = navbar();
+const homeLink = document.querySelector(".home");
+const createBlog = document.querySelector(".create__blog");
 
 import { getData } from "../components/getData.js";
+
+homeLink.addEventListener("click", () => {
+  location.href = "../index.html";
+});
+
+createBlog.style.display = "none";
 
 document.querySelector("#publish").addEventListener("click", async () => {
   event.preventDefault();
@@ -31,6 +39,4 @@ document.querySelector("#publish").addEventListener("click", async () => {
       "Content-Type": "application/json",
     },
   });
-
-  window.href = "../index.html";
 });
