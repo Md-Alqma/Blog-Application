@@ -79,10 +79,16 @@
       "author": "Demott Dudson"
     },
     {
-      "title": "asfd",
-      "body": "asfgsdg asdfas asgas",
-      "author": "asdga",
-      "id": 14
+      "title": "Creating a new Website",
+      "body": "I am Alqma Ansari. I am creating a Udemy Website. I have created the Navbar and Footer page. I have also created the Landing page of the Website.",
+      "author": "Alqma",
+      "id": 15
+    },
+    {
+      "title": "Hello Python!",
+      "body": "Basic code in python: -\n\n```\n  print('Hello World!')\n```\n",
+      "author": "Python",
+      "id": 16
     }
   ]
 }

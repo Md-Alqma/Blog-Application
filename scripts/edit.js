@@ -32,7 +32,7 @@ document.querySelector('#publish').addEventListener('click', async () => {
         }
     })
 
-    location.href = '../index.html';
+    location.href = './index.html';
 })
 
 
